@@ -1,0 +1,17 @@
+.dashboard-container, .login-container {
+  backdrop-filter: blur(8px); /* Deixa o fundo do card levemente embaçado */
+  background-color: rgba(18, 18, 18, 0.9) !important; /* Deixa o card levemente transparente */
+}
+.lista-secao {
+  background: rgba(18, 18, 18, 0.8); /* Fundo semi-transparente */
+  backdrop-filter: blur(5px); /* Desfoca o wallpaper atrás do texto */
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #c0392b;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  color: #fff; /* Garante que o texto fique branco */
+}
