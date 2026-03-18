@@ -15,3 +15,10 @@ table {
   width: 100%;
   color: #fff; /* Garante que o texto fique branco */
 }
+/* No seu DashboardView.vue, procure por td { ... } e substitua por: */
+td { 
+  padding: 10px; 
+  border-bottom: 1px solid #333; /* Uma linha divisória mais visível */
+  color: #e74c3c; /* MESMO VERMELHO DO CABEÇALHO */
+  font-weight: 500; /* Deixa o texto um pouquinho mais "cheio" */
+}
